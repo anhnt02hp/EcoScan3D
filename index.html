@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EcoScan 3D | Số Hóa Di Sản & Du Lịch Sinh Thái Bền Vững</title>
-  
+
   <!-- Font chữ Google & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <!-- CSS riêng -->
   <link rel="stylesheet" href="style.css">
 
   <!-- Thư viện Three.js tạo hiệu ứng 3D Point Cloud -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
+
 <body>
 
   <!-- Thanh Navigation -->
@@ -39,7 +43,8 @@
     <div class="hero-content">
       <div class="badge"><i class="fa-solid fa-satellite-dish"></i> LiDAR + UAV Technology</div>
       <h1>EcoScan 3D - Số Hóa Di Sản & Du Lịch Sinh Thái Bền Vững</h1>
-      <p>Thiết bị bay không người lái tích hợp LiDAR 2D + Cơ cấu quay và Camera Fusion, số hóa cảnh quan thành mô hình Digital Twin độ chính xác cao với chi phí tối ưu.</p>
+      <p>Thiết bị bay không người lái tích hợp LiDAR 2D + Cơ cấu quay và Camera Fusion, số hóa cảnh quan thành mô hình
+        Digital Twin độ chính xác cao với chi phí tối ưu.</p>
       <div class="hero-actions">
         <a href="#viewer" class="btn-primary"><i class="fa-solid fa-cube"></i> Trải Nghiệm Mô Hình 3D</a>
         <a href="#bmc" class="btn-secondary">Khám Phá BMC</a>
@@ -54,17 +59,20 @@
       <div class="card">
         <i class="fa-solid fa-rotate icon"></i>
         <h3>LiDAR 2D + Cơ Cấu Quay</h3>
-        <p>Thay vì sử dụng LiDAR 3D đắt đỏ, EcoScan 3D tự thiết kế cơ cấu quay đồng bộ cho LiDAR 2D giúp giảm 60-70% chi phí phần cứng.</p>
+        <p>Thay vì sử dụng LiDAR 3D đắt đỏ, EcoScan 3D tự thiết kế cơ cấu quay đồng bộ cho LiDAR 2D giúp giảm 60-70% chi
+          phí phần cứng.</p>
       </div>
       <div class="card">
         <i class="fa-solid fa-layer-group icon"></i>
         <h3>LiDAR - Camera Fusion</h3>
-        <p>Thuật toán tự phát triển kết hợp dữ liệu hình học LiDAR (Point Cloud) với màu sắc trực quan từ Camera cho mô hình Digital Twin sống động.</p>
+        <p>Thuật toán tự phát triển kết hợp dữ liệu hình học LiDAR (Point Cloud) với màu sắc trực quan từ Camera cho mô
+          hình Digital Twin sống động.</p>
       </div>
       <div class="card">
         <i class="fa-solid fa-mountain-sun icon"></i>
         <h3>Không Tác Động Vật Lý</h3>
-        <p>Tiếp cận dễ dàng các khu vực di tích hiểm trở, rừng sâu mà không làm ảnh hưởng đến hiện trạng kiến trúc và hệ sinh thái.</p>
+        <p>Tiếp cận dễ dàng các khu vực di tích hiểm trở, rừng sâu mà không làm ảnh hưởng đến hiện trạng kiến trúc và hệ
+          sinh thái.</p>
       </div>
     </div>
   </section>
@@ -83,7 +91,8 @@
       </div>
       <div class="bmc-box">
         <h4><i class="fa-solid fa-gem"></i> Giải Pháp Giá Trị</h4>
-        <p>Số hóa di sản chi phí thấp; Lưu trữ dữ liệu chống thiên tai; Tạo dữ liệu tham quan thực tế ảo (VR Tour) không gây hại môi trường.</p>
+        <p>Số hóa di sản chi phí thấp; Lưu trữ dữ liệu chống thiên tai; Tạo dữ liệu tham quan thực tế ảo (VR Tour) không
+          gây hại môi trường.</p>
       </div>
       <div class="bmc-box">
         <h4><i class="fa-solid fa-heart"></i> Quan Hệ Khách Hàng</h4>
@@ -91,151 +100,157 @@
       </div>
       <div class="bmc-box">
         <h4><i class="fa-solid fa-users"></i> Phân Khúc Khách Hàng</h4>
-        <p>Ban quản lý di sản (B2G), Các khu du lịch sinh thái (B2B), Đơn vị nghiên cứu quy hoạch lâm nghiệp/môi trường.</p>
+        <p>Ban quản lý di sản (B2G), Các khu du lịch sinh thái (B2B), Đơn vị nghiên cứu quy hoạch lâm nghiệp/môi trường.
+        </p>
       </div>
       <div class="bmc-box">
         <h4><i class="fa-solid fa-wallet"></i> Dòng Doanh Thu</h4>
-        <p>Phí hợp đồng dịch vụ quét 3D theo dự án, Bán dữ liệu/nội dung số cho tour du lịch ảo, Phí bảo trì/cập nhật dữ liệu hàng năm.</p>
+        <p>Phí hợp đồng dịch vụ quét 3D theo dự án, Bán dữ liệu/nội dung số cho tour du lịch ảo, Phí bảo trì/cập nhật dữ
+          liệu hàng năm.</p>
       </div>
     </div>
   </section>
 
   <section id="results" class="section bg-alt">
-  <h2 class="section-title">Thử Nghiệm & Kết Quả Quét 3D</h2>
-  <p class="section-desc">Hình ảnh, video thực tế quá trình khảo sát thực địa và dữ liệu Digital Twin</p>
+    <h2 class="section-title">Thử Nghiệm & Kết Quả Quét 3D</h2>
+    <p class="section-desc">Hình ảnh, video thực tế quá trình khảo sát thực địa và dữ liệu Digital Twin</p>
 
-  <div class="results-grid">
-    <div class="result-card video-card">
-      <div class="media-container">
-        <iframe src="assets\inner-tablet-video_1.mp4" title="EcoScan 3D Demo Flight" frameborder="0" allowfullscreen></iframe>
+    <div class="results-grid">
+      <div class="result-card video-card">
+        <div class="media-container">
+          <iframe src="assets\inner-tablet-video_1.mp4" title="EcoScan 3D Demo Flight" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+        <div class="result-info">
+          <h3><i class="fa-solid fa-play-circle"></i> Video Quá Trình Bay Khảo Sát</h3>
+          <p>Quay quét tự động bằng UAV tích hợp LiDAR 2D + Camera Fusion tại di tích mẫu.</p>
+        </div>
       </div>
-      <div class="result-info">
-        <h3><i class="fa-solid fa-play-circle"></i> Video Quá Trình Bay Khảo Sát</h3>
-        <p>Quay quét tự động bằng UAV tích hợp LiDAR 2D + Camera Fusion tại di tích mẫu.</p>
+
+      <div class="result-card">
+        <div class="media-container">
+          <img src="assets\mo_phong_2D.jpg" alt="Point Cloud Mesh">
+        </div>
+        <div class="result-info">
+          <h3><i class="fa-solid fa-cloud"></i>Mô phỏng 2D cách Hệ thống vận hành</h3>
+          <p>Tái tạo chính xác từng chi tiết kiến trúc di tích với mật độ điểm cao.</p>
+        </div>
+      </div>
+
+      <div class="result-card">
+        <div class="media-container">
+          <img src="assets\mo_phong_3D.gif" alt="3D Model Fusion">
+        </div>
+        <div class="result-info">
+          <h3><i class="fa-solid fa-cube"></i> Mô phỏng 3D Hệ thống vận hành</h3>
+          <p>Kết hợp dữ liệu hình học LiDAR với màu sắc trực quan từ camera chuẩn HD.</p>
+        </div>
       </div>
     </div>
-
-    <div class="result-card">
-      <div class="media-container">
-        <img src="assets\mo_phong_2D.jpg" alt="Point Cloud Mesh">
-      </div>
-      <div class="result-info">
-        <h3><i class="fa-solid fa-cloud"></i>Mô phỏng 2D cách Hệ thống vận hành</h3>
-        <p>Tái tạo chính xác từng chi tiết kiến trúc di tích với mật độ điểm cao.</p>
-      </div>
-    </div>
-
-    <div class="result-card">
-      <div class="media-container">
-        <img src="assets\mo_phong_3D.gif" alt="3D Model Fusion">
-      </div>
-      <div class="result-info">
-        <h3><i class="fa-solid fa-cube"></i> Mô phỏng 3D Hệ thống vận hành</h3>
-        <p>Kết hợp dữ liệu hình học LiDAR với màu sắc trực quan từ camera chuẩn HD.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
 
   <!-- Section: 3D Model Interactive Viewer Demo -->
   <section id="viewer" class="section">
     <h2 class="section-title">Mô Phỏng Mô Hình Số 3D (Digital Twin)</h2>
     <p class="section-desc">Xoay, thu phóng để trải nghiệm dữ liệu Point Cloud & Mesh độ chính xác cao</p>
-    
+
     <div class="viewer-wrapper">
-      <div id="demo-3d-canvas"></div>
-      <div class="viewer-controls">
-        <button id="btn-toggle-wireframe" class="btn-sm"><i class="fa-solid fa-border-all"></i> Bật/Tắt Wireframe</button>
-        <button id="btn-rotate" class="btn-sm"><i class="fa-solid fa-arrows-spin"></i> Dừng/Xoay Tự Động</button>
+      <div class="sketchfab-embed-wrapper">
+        <iframe title="Sleeping Giant Observation Tower" frameborder="0" allowfullscreen mozallowfullscreen="true"
+          webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+          execution-while-out-of-viewport execution-while-not-rendered web-share
+          src="https://sketchfab.com/models/ebad5123516941e986f430413e80c7fa/embed?autostart=1">
+        </iframe>
       </div>
     </div>
   </section>
 
 
   <section id="team" class="section">
-  <h2 class="section-title">Đội Ngũ Phát Triển</h2>
-  
-  <div class="advisor-container">
-    <div class="team-card advisor-card">
-      <div class="avatar-wrapper">
-        <img src="images\chi_khuyen.png" alt="Giảng viên hướng dẫn">
-      </div>
-      <span class="role-badge">Giảng Viên Hướng Dẫn</span>
-      <h3>ThS. Hoàng Thị Kim Khuyên</h3>
-      <p class="school">Trường Đại học Khoa học và Công nghệ Hà Nội</p>
-      <p class="bio">Cố vấn chuyên môn về Dự án.</p>
-    </div>
-  </div>
+    <h2 class="section-title">Đội Ngũ Phát Triển</h2>
 
-  <div class="team-grid">
-    <div class="team-card">
-      <div class="avatar-wrapper">
-        <img src="images\vu_hung.jpg" alt="Thành viên 1">
-      </div>
-      <span class="member-role">Trưởng Nhóm</span>
-      <h3>Vũ Hùng</h3>
-      <p>Sinh viên ngành Kỹ Thuật Hàng không (AE)</p>
-      <p>Sinh viên Trường Đại học Khoa học và Công nghệ Hà Nội</p>
-      <div class="member-socials">
-        <a href="https://www.facebook.com/hung.vu.998539" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="mailto:vuhung160105@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <div class="advisor-container">
+      <div class="team-card advisor-card">
+        <div class="avatar-wrapper">
+          <img src="images\chi_khuyen.png" alt="Giảng viên hướng dẫn">
+        </div>
+        <span class="role-badge">Giảng Viên Hướng Dẫn</span>
+        <h3>ThS. Hoàng Thị Kim Khuyên</h3>
+        <p class="school">Trường Đại học Khoa học và Công nghệ Hà Nội</p>
+        <p class="bio">Cố vấn chuyên môn về Dự án.</p>
       </div>
     </div>
 
-    <div class="team-card">
-      <div class="avatar-wrapper">
-        <img src="images/dinh_luc.jpg" alt="Thành viên 2">
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="avatar-wrapper">
+          <img src="images\vu_hung.jpg" alt="Thành viên 1">
+        </div>
+        <span class="member-role">Trưởng Nhóm</span>
+        <h3>Vũ Hùng</h3>
+        <p>Sinh viên ngành Kỹ Thuật Hàng không (AE)</p>
+        <p>Sinh viên Trường Đại học Khoa học và Công nghệ Hà Nội</p>
+        <div class="member-socials">
+          <a href="https://www.facebook.com/hung.vu.998539" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="mailto:vuhung160105@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
       </div>
-      <span class="member-role">Thành viên 1</span>
-      <h3>Tạ Đình Lực</h3>
-      <p>Sinh viên ngành Kỹ Thuật Hàng không (AE)</p>
-      <p>Trường Đại học Khoa học và Công nghệ Hà Nội</p>
-      <div class="member-socials">
-        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="mailto:email@example.com"><i class="fa-solid fa-envelope"></i></a>
+
+      <div class="team-card">
+        <div class="avatar-wrapper">
+          <img src="images/dinh_luc.jpg" alt="Thành viên 2">
+        </div>
+        <span class="member-role">Thành viên 1</span>
+        <h3>Tạ Đình Lực</h3>
+        <p>Sinh viên ngành Kỹ Thuật Hàng không (AE)</p>
+        <p>Trường Đại học Khoa học và Công nghệ Hà Nội</p>
+        <div class="member-socials">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="mailto:email@example.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="avatar-wrapper">
+          <img src="images\mai_chi.jpg" alt="Thành viên 3">
+        </div>
+        <span class="member-role">Thành viên 2</span>
+        <h3>Trương Hoàng Mai Chi</h3>
+        <p>Sinh viên ngành Sinh học Công nghệ, Phát triển thuốc (PMAB)</p>
+        <p>Trường Đại học Khoa học và Công nghệ Hà Nội</p>
+        <div class="member-socials">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="mailto:chithm.2540039@usth.edu.vn"><i class="fa-solid fa-envelope"></i></a>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="team-card">
-      <div class="avatar-wrapper">
-        <img src="images\mai_chi.jpg" alt="Thành viên 3">
-      </div>
-      <span class="member-role">Thành viên 2</span>
-      <h3>Trương Hoàng Mai Chi</h3>
-      <p>Sinh viên ngành Sinh học Công nghệ, Phát triển thuốc (PMAB)</p>
-      <p>Trường Đại học Khoa học và Công nghệ Hà Nội</p>
-      <div class="member-socials">
-        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="mailto:chithm.2540039@usth.edu.vn"><i class="fa-solid fa-envelope"></i></a>
-      </div>
+  <section id="partners" class="section bg-alt">
+    <h2 class="section-title">Đối Tác & Đơn Vị Hướng Tới</h2>
+    <p class="section-desc">Hợp tác cùng các tổ chức bảo tồn di sản, du lịch và công nghệ</p>
+
+    <div class="partners-grid">
+      <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
+        <img src="https://via.placeholder.com/180x60/1f2937/10b981?text=Ban+QL+Di+Tich" alt="Ban QL Di Tích">
+      </a>
+
+      <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
+        <img src="https://via.placeholder.com/180x60/1f2937/06b6d4?text=EcoTour+Company"
+          alt="Công ty Du Lịch Sinh Thái">
+      </a>
+
+      <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
+        <img src="https://via.placeholder.com/180x60/1f2937/ffffff?text=Univ+Lab+GNC" alt="Phòng Thí Nghiệm">
+      </a>
+
+      <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
+        <img src="https://via.placeholder.com/180x60/1f2937/10b981?text=Startup+Fund" alt="Quỹ Hỗ Trợ Khởi Nghiệp">
+      </a>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="partners" class="section bg-alt">
-  <h2 class="section-title">Đối Tác & Đơn Vị Hướng Tới</h2>
-  <p class="section-desc">Hợp tác cùng các tổ chức bảo tồn di sản, du lịch và công nghệ</p>
-
-  <div class="partners-grid">
-    <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
-      <img src="https://via.placeholder.com/180x60/1f2937/10b981?text=Ban+QL+Di+Tich" alt="Ban QL Di Tích">
-    </a>
-
-    <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
-      <img src="https://via.placeholder.com/180x60/1f2937/06b6d4?text=EcoTour+Company" alt="Công ty Du Lịch Sinh Thái">
-    </a>
-
-    <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
-      <img src="https://via.placeholder.com/180x60/1f2937/ffffff?text=Univ+Lab+GNC" alt="Phòng Thí Nghiệm">
-    </a>
-
-    <a href="https://example.com" target="_blank" class="partner-item" title="Truy cập website đối tác">
-      <img src="https://via.placeholder.com/180x60/1f2937/10b981?text=Startup+Fund" alt="Quỹ Hỗ Trợ Khởi Nghiệp">
-    </a>
-  </div>
-</section>
-  
   <!-- Footer / Contact -->
   <footer id="contact">
     <div class="footer-content">
@@ -252,4 +267,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
