@@ -417,3 +417,7 @@ footer {
   height: 100%;
   border: 0;
 }
+
+.section-desc {
+  margin-bottom: 24px;
+}
