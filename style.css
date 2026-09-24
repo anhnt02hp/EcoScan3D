@@ -194,15 +194,31 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* 3D Demo Viewer */
+/* 3D Demo Viewer - Cập nhật cho Sketchfab Embed */
 .viewer-wrapper {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 650px; /* Bạn có thể tăng số này lên 700px, 750px... nếu muốn cao nữa */
   background: #000;
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid var(--border-color);
+}
+
+/* Thêm đoạn này để iframe tự động tràn hết khung .viewer-wrapper */
+.sketchfab-embed-wrapper,
+.sketchfab-embed-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* Tùy chỉnh riêng cho điện thoại để không chiếm hết màn hình */
+@media (max-width: 768px) {
+  .viewer-wrapper {
+    height: 450px;
+  }
 }
 
 #demo-3d-canvas {
@@ -400,22 +416,6 @@ footer {
 
 .partner-item:hover img {
   filter: grayscale(0%);
-}
-
-.sketchfab-embed-wrapper {
-  width: 100%;
-  aspect-ratio: 1;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.sketchfab-embed-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
 }
 
 .section-desc {
